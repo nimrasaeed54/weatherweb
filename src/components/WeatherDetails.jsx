@@ -19,7 +19,7 @@ const WeatherDetails = () => {
   return (
     <div className="min-h-screen flex flex-col md:flex-row">
  
-    <div className="w-full md:w-[25%] h-auto md:h-screen flex flex-col sticky top-0">
+    <div className="w-full md:w-[25%] h-auto md:h-screen flex flex-col md:sticky top-0">
       <div className="flex-1 relative flex flex-col items-center justify-center text-white rounded-2xl shadow-2xl overflow-hidden bg-gradient-to-br from-[#C96E6D] to-pink-500">
         <div className="absolute top-0 left-0 right-0 p-2 z-20">
           <SearchBar />
