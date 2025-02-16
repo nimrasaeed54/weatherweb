@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+     background-image: url("https://images.unsplash.com/photo-1606990972809-f6dff5d17367?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYXRoZXIlMjBiZ3xlbnwwfHwwfHx8MA%3D%3D");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     margin: 0;
+     padding: 0;
+   }
+   .hide-scrollbar::-webkit-scrollbar {
+     display: none;
+   }
+   
+   .hide-scrollbar {
+     -ms-overflow-style: none;
+     scrollbar-width: none; 
+   }
+   @keyframes spin {
+     from { transform: rotate(0deg); }
+     to { transform: rotate(360deg); }
+   }
+   .wind-icon {
+     animation: spin 2s linear infinite;
+   }
